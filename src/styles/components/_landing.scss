@@ -1,0 +1,31 @@
+.landing {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('../images/space.jpeg');
+  background-size: cover;
+  z-index: -1;
+
+  .content {
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    top: 30%;
+    color: white;
+    h1 {
+      font-size: 84px;
+    }
+    h2 {
+      font-size: 36px;
+    }
+  }
+
+  .particles {
+    height: 100%;
+  }
+}
