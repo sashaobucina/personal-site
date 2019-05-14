@@ -14,12 +14,12 @@ class Footer extends Component {
           <MDBNavbarNav right>
             <MDBNavItem className="mr-3">
               <a href="mailto:sasha.obucina@gmail.com">
-                <MDBIcon className="red-text" fab icon="google" size="lg" />
+                <MDBIcon className="red-text hoverable" fab icon="google" size="lg" />
               </a>
             </MDBNavItem>
             <MDBNavItem className="mr-3">
               <a target="_blank" rel="noopener noreferrer" href="https://bitbucket.org/obucinas/">
-                <MDBIcon className="blue-text" fab icon="bitbucket" size="lg" />
+                <MDBIcon className="blue-text hoverable" fab icon="bitbucket" size="lg" />
               </a>
             </MDBNavItem>
             <MDBNavItem className="mr-3">
