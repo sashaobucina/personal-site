@@ -11,39 +11,44 @@ import resume from "../static/files/SashaObucina-ResumeOctober2018.pdf"
 class Landing extends Component {
   render() {
     return (
-      <MDBContainer id="landing" className="landing" fluid>
+      <div id="landing" className="landing">
           <div className="content">
-            <h1 className="font-weight-bold">
-              Sasha Obucina
-            </h1>
-            <h2 className="mt-1">
-              Software Developer
-            </h2>
-            <MDBRow className="landing-btn-group mt-5">
-              <MDBCol className="offset-sm-1 offset-md-0 hoverable" md="4" sm="5">
-                <MDBBtn href="https://github.com/sashaobucina" outline color="white">
-                  Github<MDBIcon className="ml-2" fab icon="github"></MDBIcon>
-                </MDBBtn>
-              </MDBCol>
-              <MDBCol className="hoverable" md="4" sm="5">
-                <MDBBtn href="https://www.linkedin.com/in/sasha-obucina-0b51a2173/" outline color="white">
-                  Linkedin<MDBIcon className="ml-2" fab icon="linkedin"></MDBIcon>
-                </MDBBtn>
-              </MDBCol>
-              <MDBCol className="offset-sm-3 offset-md-0 hoverable" md="4" sm="6">
-                <MDBBtn outline color="white" href={resume} target="_blank" rel="noopener noreferrer">
-                  Resumé<MDBIcon className="ml-2" icon="download"></MDBIcon>
-                </MDBBtn>
-              </MDBCol>
-            </MDBRow>
-            <MDBRow className="mt-5">
-              <MDBCol>
-                <MDBAnimation type="bounce" count={10} duration="2s" >
-                  <MDBIcon icon="angle-down" size="2x" />
-                </MDBAnimation>
-              </MDBCol>
-            </MDBRow>
-          </div>
+            <MDBContainer fluid>
+              <MDBRow>
+                <MDBCol className="offset-sm-0 offset-md-0" md="12" sm="12">
+                  <h1 className="font-weight-bold">
+                    Sasha Obucina
+                  </h1>
+                  <h2 className="mt-1">
+                    Software Developer
+                  </h2>
+                </MDBCol>
+              </MDBRow>
+              <MDBRow className="landing-btn-group mt-5">
+                <MDBCol className="offset-sm-3 offset-md-1" md="3" sm="3">
+                  <MDBBtn href="https://github.com/sashaobucina" outline color="white">
+                    Github<MDBIcon className="ml-1" fab icon="github"></MDBIcon>
+                  </MDBBtn>
+                </MDBCol>
+                <MDBCol md="4" sm="3">
+                  <MDBBtn href="https://www.linkedin.com/in/sasha-obucina-0b51a2173/" outline color="white">
+                    Linkedin<MDBIcon className="ml-1" fab icon="linkedin"></MDBIcon>
+                  </MDBBtn>
+                </MDBCol>
+                <MDBCol className="offset-sm-4 offset-md-0" md="3" sm="4">
+                  <MDBBtn outline color="white" href={resume} target="_blank" rel="noopener noreferrer">
+                    Resumé<MDBIcon className="ml-1" icon="download"></MDBIcon>
+                  </MDBBtn>
+                </MDBCol>
+              </MDBRow>
+              <MDBRow className="mt-5">
+                <MDBCol>
+                  <MDBAnimation type="bounce" count={10} duration="2s" >
+                    <MDBIcon icon="angle-down" size="2x" />
+                  </MDBAnimation>
+                </MDBCol>
+              </MDBRow>
+            </MDBContainer>
           <Particles className="particles"
           params={{
             particles: {
@@ -117,13 +122,13 @@ class Landing extends Component {
               }
             },
             interactivity: {
-              detect_on: "canvas",
+              detect_on: "window",
               events: {
                 onhover: {
                   enable: true
                 },
                 onclick: {
-                  enable: false
+                  enable: true
                 },
                 resize: true
               }
@@ -131,12 +136,13 @@ class Landing extends Component {
             retina_detect: true
           }}
         />
+        </div>
         <About />
         <Experience />
         <Projects />
         <Education />
         <Skills />
-      </MDBContainer>
+      </div>
     )
   }
 }

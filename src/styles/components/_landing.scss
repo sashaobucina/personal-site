@@ -12,10 +12,13 @@
   z-index: -1;
 
   .content {
-    position: absolute;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    left: 25%;
-    top: 30%;
+    min-height: 100vh;
     color: white;
     h1 {
       font-size: 84px;
@@ -26,6 +29,9 @@
   }
 
   .particles {
+    position: absolute;
     height: 100%;
+    width: 100%;
+    z-index: -1;
   }
 }
