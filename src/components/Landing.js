@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon, MDBAnimation } from "mdbreact";
+import { HashLink as Link } from "react-router-hash-link";
 import Particles from "react-particles-js";
 import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Education from "./Education";
 import Skills from "./Skills";
-import resume from "../static/files/SashaObucina-ResumeOctober2018.pdf"
 import Footer from "./Footer";
+import resume from "../static/files/SashaObucina-ResumeOctober2018.pdf"
 
 class Landing extends Component {
   render() {
@@ -44,9 +45,11 @@ class Landing extends Component {
               </MDBRow>
               <MDBRow className="mt-5">
                 <MDBCol>
-                  <MDBAnimation type="pulse" infinite duration="2s" >
-                    <MDBIcon icon="angle-down" size="2x" />
-                  </MDBAnimation>
+                  <Link smooth to="#about">
+                    <MDBAnimation type="bounce" duration="2s" infinite>
+                      <MDBIcon className="white-text" icon="angle-down" size="2x" />
+                    </MDBAnimation>
+                  </Link>
                 </MDBCol>
               </MDBRow>
             </MDBContainer>
