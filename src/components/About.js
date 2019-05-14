@@ -7,15 +7,15 @@ class About extends Component {
   render() {
     return (
       <MDBContainer id="about" className="about mb-5" fluid>
-        <MDBRow className="mt-4">
-          <MDBCol className="mt-4" md="4">
+        <MDBRow>
+          <MDBCol className="mt-5" md="4">
             <img className="avatar" src={avatar} alt="Avatar" />
             <h5 className="mt-2">
               HEY THERE
             </h5>
             <CustomDivider />
           </MDBCol>
-          <MDBCol className="border rounded" md="7">
+          <MDBCol className="border rounded mt-4" md="7">
             <p className="text-muted mt-2" style={{ textAlign: "left" }}>
               I'm Sasha! A passionate CS undergraduate at the <a href="https://www.utoronto.ca/">University of Toronto (St. George)</a>.
               My interest in the field of computer science started because of the impact software has on our lives, especially keen on machine learning and cybersecurity.

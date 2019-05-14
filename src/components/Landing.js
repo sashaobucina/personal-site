@@ -49,93 +49,93 @@ class Landing extends Component {
                 </MDBCol>
               </MDBRow>
             </MDBContainer>
-          <Particles className="particles"
-          params={{
-            particles: {
-              number: {
-                value: 75,
-                density: {
-                  enable: true,
-                  value_area: 800
-                }
-              },
-              color: {
-                value: "#ffffff"
-              },
-              shape: {
-                type: "circle",
-                stroke: {
-                  width: 0,
-                  color: "#000"
+            <Particles className="particles"
+            params={{
+              particles: {
+                number: {
+                  value: 75,
+                  density: {
+                    enable: true,
+                    value_area: 800
+                  }
                 },
-                image: {
-                  src: "img/github.svg",
-                  width: 100,
-                  height: 100
-                }
-              },
-              opacity: {
-                value: 0.4,
-                random: true,
-                anim: {
+                color: {
+                  value: "#ffffff"
+                },
+                shape: {
+                  type: "circle",
+                  stroke: {
+                    width: 0,
+                    color: "#000"
+                  },
+                  image: {
+                    src: "img/github.svg",
+                    width: 100,
+                    height: 100
+                  }
+                },
+                opacity: {
+                  value: 0.4,
+                  random: true,
+                  anim: {
+                    enable: true,
+                    speed: 1,
+                    opacity_min: 0.1,
+                    sync: false
+                  }
+                },
+                size: {
+                  value: 3,
+                  random: true,
+                  anim: {
+                    enable: true,
+                    speed: 2,
+                    size_min: 0.1,
+                    sync: false
+                  }
+                },
+                line_linked: {
+                  enable_auto: true,
+                  distance: 200,
+                  color: "#fff",
+                  opacity: 1,
+                  width: 1,
+                  condensed_mode: {
+                    enable: false,
+                    rotateX: 600,
+                    rotateY: 600
+                  }
+                },
+                move: {
                   enable: true,
                   speed: 1,
-                  opacity_min: 0.1,
-                  sync: false
+                  direction: "none",
+                  random: false,
+                  straight: false,
+                  out_mode: "out",
+                  bounce: false,
+                  attract: {
+                    enable: false,
+                    rotateX: 600,
+                    rotateY: 1200
+                  }
                 }
               },
-              size: {
-                value: 3,
-                random: true,
-                anim: {
-                  enable: true,
-                  speed: 2,
-                  size_min: 0.1,
-                  sync: false
+              interactivity: {
+                detect_on: "window",
+                events: {
+                  onhover: {
+                    enable: true
+                  },
+                  onclick: {
+                    enable: true
+                  },
+                  resize: true
                 }
               },
-              line_linked: {
-                enable_auto: true,
-                distance: 200,
-                color: "#fff",
-                opacity: 1,
-                width: 1,
-                condensed_mode: {
-                  enable: false,
-                  rotateX: 600,
-                  rotateY: 600
-                }
-              },
-              move: {
-                enable: true,
-                speed: 1,
-                direction: "none",
-                random: false,
-                straight: false,
-                out_mode: "out",
-                bounce: false,
-                attract: {
-                  enable: false,
-                  rotateX: 600,
-                  rotateY: 1200
-                }
-              }
-            },
-            interactivity: {
-              detect_on: "window",
-              events: {
-                onhover: {
-                  enable: true
-                },
-                onclick: {
-                  enable: true
-                },
-                resize: true
-              }
-            },
-            retina_detect: true
-          }}
-        />
+              retina_detect: true
+            }}
+          />
         </div>
         <About />
         <Experience />
