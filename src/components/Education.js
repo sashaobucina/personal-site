@@ -1,12 +1,20 @@
 import React, { Component } from "react";
-import { MDBContainer } from "mdbreact";
+import { MDBContainer, MDBJumbotron, MDBRow, MDBCol } from "mdbreact";
+import CustomDivider from "./CustomDivider";
 
 class Education extends Component {
   render() {
     return (
-      <MDBContainer id="education" className="education mb-3" fluid>
-        <p>PLACEHOLDER</p>
-      </MDBContainer>
+      <MDBJumbotron id="education" className="education mb-0" fluid>
+        <MDBContainer>
+          <MDBRow>
+            <MDBCol md="12">
+              <h3>Education</h3>
+              <CustomDivider />
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
+      </MDBJumbotron>
     )
   }
 }

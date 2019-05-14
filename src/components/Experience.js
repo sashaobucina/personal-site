@@ -7,7 +7,7 @@ import blackberryImg from "../static/images/blackberry.png";
 class Experience extends Component {
   render() {
     return (
-      <MDBJumbotron id="experience" className="experience mb-5" fluid>
+      <MDBJumbotron id="experience" className="experience mb-0" fluid>
         <MDBContainer>
           <MDBRow>
             <MDBCol md="12">
@@ -15,7 +15,7 @@ class Experience extends Component {
               <CustomDivider />
             </MDBCol>
           </MDBRow>
-          <MDBRow className="mt-3">
+          <MDBRow className="mt-4">
             <MDBCol className="offset-md-1" md="5">
               <MDBCard>
                 <MDBCardImage className="card-img" src={scotiaImg} waves />

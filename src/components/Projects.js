@@ -5,7 +5,7 @@ import CustomDivider from "./CustomDivider";
 class Projects extends Component {
   render() {
     return (
-      <MDBJumbotron id="projects" className="projects mb-5" fluid>
+      <MDBJumbotron id="projects" className="projects mb-0" fluid>
         <MDBContainer fluid>
         <MDBRow>
           <MDBCol md="12">
@@ -13,7 +13,7 @@ class Projects extends Component {
             <CustomDivider />
           </MDBCol>
         </MDBRow>
-        <MDBRow className="mt-3">
+        <MDBRow className="mt-4">
           <MDBCol className="offset-md-2" md="8">
             <MDBListGroup>
               <MDBListGroupItem>
