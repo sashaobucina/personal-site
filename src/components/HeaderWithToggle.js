@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import { MDBNavbarToggler, MDBCollapse, MDBNavbarNav, MDBNavItem, MDBNavbar } from "mdbreact";
 import hamburgerImg from "../images/hamburger-svg.png";
 
@@ -11,13 +12,19 @@ class HeaderWithToggle extends Component {
         <MDBCollapse id="navbarCollapse1" isOpen={collapseID} navbar>
           <MDBNavbarNav className="header-items mt-2">
             <MDBNavItem>
-              <p>About</p>
+              <Link smooth to="#about" className="header-link">
+                <p>About</p>
+              </Link>
             </MDBNavItem>
             <MDBNavItem>
-              <p>Experience</p>
+              <Link smooth to="#experience" className="header-link">
+                <p>Experience</p>
+              </Link>
             </MDBNavItem>
             <MDBNavItem>
-              <p>Projects</p>
+              <Link smooth to="#projects" className="header-link">
+                <p>Projects</p>
+              </Link>
             </MDBNavItem>
             <MDBNavItem>
               <p>Education</p>

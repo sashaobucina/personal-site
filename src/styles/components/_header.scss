@@ -3,5 +3,11 @@ header {
     color: white;
     font-weight: bolder;
     font-size: 20px;
+    .header-link {
+      color: white;
+      &:hover {
+        color: rgb(0, 81, 255);
+      }
+    }
   }
 }

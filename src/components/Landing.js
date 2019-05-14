@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon, MDBAnimation } from "mdbreact";
 import Particles from "react-particles-js";
 import About from "./About";
+import Experience from "./Experience";
+import Projects from "./Projects";
 
 class Landing extends Component {
   render() {
@@ -33,7 +35,7 @@ class Landing extends Component {
             </MDBRow>
             <MDBRow className="mt-5">
               <MDBCol>
-                <MDBAnimation type="bounce" count="10" duration="2s" >
+                <MDBAnimation type="bounce" count={10} duration="2s" >
                   <MDBIcon icon="angle-down" size="2x" />
                 </MDBAnimation>
               </MDBCol>
@@ -127,6 +129,8 @@ class Landing extends Component {
           }}
         />
         <About />
+        <Experience />
+        <Projects />
       </MDBContainer>
     )
   }
