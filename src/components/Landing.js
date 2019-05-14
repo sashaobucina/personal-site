@@ -7,6 +7,7 @@ import Projects from "./Projects";
 import Education from "./Education";
 import Skills from "./Skills";
 import resume from "../static/files/SashaObucina-ResumeOctober2018.pdf"
+import Footer from "./Footer";
 
 class Landing extends Component {
   render() {
@@ -43,7 +44,7 @@ class Landing extends Component {
               </MDBRow>
               <MDBRow className="mt-5">
                 <MDBCol>
-                  <MDBAnimation type="bounce" count={10} duration="2s" >
+                  <MDBAnimation type="pulse" infinite duration="2s" >
                     <MDBIcon icon="angle-down" size="2x" />
                   </MDBAnimation>
                 </MDBCol>
@@ -142,6 +143,7 @@ class Landing extends Component {
         <Projects />
         <Education />
         <Skills />
+        <Footer />
       </div>
     )
   }
