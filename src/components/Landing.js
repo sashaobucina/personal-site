@@ -4,6 +4,8 @@ import Particles from "react-particles-js";
 import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import Education from "./Education";
+import Skills from "./Skills";
 
 class Landing extends Component {
   render() {
@@ -131,6 +133,8 @@ class Landing extends Component {
         <About />
         <Experience />
         <Projects />
+        <Education />
+        <Skills />
       </MDBContainer>
     )
   }

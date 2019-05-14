@@ -23,10 +23,14 @@ class HeaderNoToggle extends Component {
             </Link>
           </MDBNavItem>
           <MDBNavItem className="mr-3">
-            <p>Education</p>
+            <Link smooth to="#education" className="header-link">
+              <p>Education</p>
+            </Link>
           </MDBNavItem>
           <MDBNavItem className="mr-3">
-            <p>Skills</p>
+            <Link smooth to="#skills" className="header-link">
+              <p>Skills</p>
+            </Link>
           </MDBNavItem>
         </MDBNavbarNav>
       </MDBNavbar> 

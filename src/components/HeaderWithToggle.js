@@ -27,10 +27,14 @@ class HeaderWithToggle extends Component {
               </Link>
             </MDBNavItem>
             <MDBNavItem>
-              <p>Education</p>
+              <Link smooth to="#education" className="header-link">
+                <p>Education</p>
+              </Link>
             </MDBNavItem>
             <MDBNavItem>
-              <p>Skills</p>
+              <Link smooth to="#skills" className="header-link">
+                <p>Skills</p>
+              </Link>
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
