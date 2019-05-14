@@ -6,6 +6,7 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 import Education from "./Education";
 import Skills from "./Skills";
+import resume from "../static/files/SashaObucina-ResumeOctober2018.pdf"
 
 class Landing extends Component {
   render() {
@@ -30,7 +31,7 @@ class Landing extends Component {
                 </MDBBtn>
               </MDBCol>
               <MDBCol className="offset-sm-3 offset-md-0 hoverable" md="4" sm="6">
-                <MDBBtn outline color="white">
+                <MDBBtn outline color="white" href={resume} target="_blank" rel="noopener noreferrer">
                   Resumé<MDBIcon className="ml-2" icon="download"></MDBIcon>
                 </MDBBtn>
               </MDBCol>

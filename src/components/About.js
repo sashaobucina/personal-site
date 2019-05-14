@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import avatar from "../images/avatar.jpg";
+import avatar from "../static/images/avatar.jpg";
 import CustomDivider from "./CustomDivider";
 
 class About extends Component {

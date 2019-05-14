@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { MDBNavbarToggler, MDBCollapse, MDBNavbarNav, MDBNavItem, MDBNavbar } from "mdbreact";
-import hamburgerImg from "../images/hamburger-svg.png";
+import hamburgerImg from "../static/images/hamburger-svg.png";
 
 class HeaderWithToggle extends Component {
   render() {

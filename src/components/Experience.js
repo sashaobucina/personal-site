@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBJumbotron, MDBCard, MDBCardTitle, MDBCardImage } from "mdbreact";
 import CustomDivider from "./CustomDivider";
-import scotiaImg from "../images/scotia.png";
-import blackberryImg from "../images/blackberry.png";
+import scotiaImg from "../static/images/scotia.png";
+import blackberryImg from "../static/images/blackberry.png";
 
 class Experience extends Component {
   render() {
