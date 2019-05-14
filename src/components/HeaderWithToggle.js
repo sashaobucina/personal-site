@@ -12,27 +12,27 @@ class HeaderWithToggle extends Component {
         <MDBCollapse id="navbarCollapse1" isOpen={collapseID} navbar>
           <MDBNavbarNav className="header-items mt-2">
             <MDBNavItem>
-              <Link smooth to="#about" className="header-link">
+              <Link smooth to="#about" className="header-link" onClick={toggleHandler('navbarCollapse1')}>
                 <p>About</p>
               </Link>
             </MDBNavItem>
             <MDBNavItem>
-              <Link smooth to="#experience" className="header-link">
+              <Link smooth to="#experience" className="header-link" onClick={toggleHandler('navbarCollapse1')}>
                 <p>Experience</p>
               </Link>
             </MDBNavItem>
             <MDBNavItem>
-              <Link smooth to="#projects" className="header-link">
+              <Link smooth to="#projects" className="header-link" onClick={toggleHandler('navbarCollapse1')}>
                 <p>Projects</p>
               </Link>
             </MDBNavItem>
             <MDBNavItem>
-              <Link smooth to="#education" className="header-link">
+              <Link smooth to="#education" className="header-link" onClick={toggleHandler('navbarCollapse1')}>
                 <p>Education</p>
               </Link>
             </MDBNavItem>
             <MDBNavItem>
-              <Link smooth to="#skills" className="header-link">
+              <Link smooth to="#skills" className="header-link" onClick={toggleHandler('navbarCollapse1')}>
                 <p>Skills</p>
               </Link>
             </MDBNavItem>
