@@ -23,7 +23,7 @@ class Education extends Component {
                   </div>
                   <p className="text-muted mb-1 font-weight-bolder" style={{ fontSize: "16px" }}>Computer Science and Economics</p>
                   <p className="text-muted mb-3" style={{ fontSize: "16px" }}>Toronto, Canada</p>
-                  <p>
+                  <p className="text-muted">
                     Currently pursuing a double degree program at the University of Toronto at the St. George Campus for Computer Science and Economics. 
                     I took a professional experience year to gain work experience through technical internships and therefore will be 
                     graduating in five years instead of four.
