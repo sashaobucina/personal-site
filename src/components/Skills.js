@@ -17,24 +17,24 @@ class Skills extends Component {
             <MDBRow>
               <MDBCol md="4">
                 <MDBContainer fluid>
-                  {showSkillRow('Typescript', 4)}
-                  {showSkillRow('SQL', 3)}
+                  {showSkillRow('Java', 4)}
                   {showSkillRow('Python', 3)}
+                  {showSkillRow('SQL', 3)}
                   {showSkillRow('Docker', 2)}
                 </MDBContainer>
               </MDBCol>
               <MDBCol md="4">
                 <MDBContainer fluid>
-                  {showSkillRow('Java', 4)}
+                  {showSkillRow('Typescript', 4)}
                   {showSkillRow('Javascript', 3)}
-                  {showSkillRow('React', 4)}
+                  {showSkillRow('Android', 3)}
                   {showSkillRow('C/C++', 2)}
                 </MDBContainer>
               </MDBCol>
               <MDBCol md="4">
                 <MDBContainer fluid>
                   {showSkillRow('Git', 4)}
-                  {showSkillRow('Android', 3)}
+                  {showSkillRow('React', 3)}
                   {showSkillRow('HTML/CSS', 2)}
                   {showSkillRow('MatLab', 1)}
                 </MDBContainer>
