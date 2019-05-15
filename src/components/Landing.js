@@ -9,13 +9,11 @@ import Education from "./Education";
 import Skills from "./Skills";
 import Footer from "./Footer";
 import resume from "../static/files/SashaObucina-ResumeOctober2018.pdf"
-import Header from "./Header";
 
 class Landing extends Component {
   render() {
     return (
       <div id="landing" className="landing">
-        <Header />
           <div className="content">
             <MDBContainer fluid>
               <MDBRow>
