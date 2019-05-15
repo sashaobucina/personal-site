@@ -21,9 +21,10 @@ class Experience extends Component {
                 <MDBCardImage className="card-img" src={scotiaImg} />
                 <MDBCardTitle>Velocity Software Developer</MDBCardTitle>
                 <ul className="text-muted mt-2" style={{ textAlign: "left", fontSize: "14px" }}>
-                  <li>Developed Wi-Fi features on the Android OS to comply with security requirements for use in national security systems</li>
-                  <li>Integrated a hardware abstraction layer that facilitates inter-process communication between the Android framework and WPA Supplicant</li>
-                  <li>Designed a mechanism in Java and C to enable external certificate validation for enterprise Wi-Fi networks</li>
+                  <li>Developed and maintained a production-ready chatbot designed for in-field use by equity traders using a RESTFUL server architecture</li>
+                  <li>Led research of improving NLP model performance and fully integrated the NLU pipeline through SpaCy and Scikit-Learn</li>
+                  <li>Responsible for full-stack developement of backend microservice using Node.js, TypeScript, and JQuery</li>
+                  <li>Assisted in building a fully automated deployment pipeline using Jenkins, Artifactory, and Docker</li>
                 </ul>
               </MDBCard>
             </MDBCol>
@@ -32,9 +33,10 @@ class Experience extends Component {
                 <MDBCardImage className="card-img" src={blackberryImg} />
                 <MDBCardTitle>Security Software Developer</MDBCardTitle>
                 <ul className="text-muted mt-2" style={{ textAlign: "left", fontSize: "14px" }}>
-                  <li>Developed and maintained a production-ready chatbot designed for in-field use by equity traders using a RESTFUL server architecture</li>
-                  <li>Led research of improving NLP model performance and fully integrated the NLU pipeline through SpaCy and Scikit-Learn</li>
-                  <li>Responsible for full-stack developement of backend microservice using Node.js, TypeScript, and Docker</li>
+                  <li>Developed Wi-Fi features on the Android OS to comply with security requirements for use in national security systems</li>
+                  <li>Integrated a hardware abstraction layer that facilitates inter-process communication between the Android framework and WPA Supplicant</li>
+                  <li>Designed a mechanism in Java and C to enable external certificate validation for enterprise Wi-Fi networks</li>
+                  <li>Extended the functionality of Android applications to support the customization of enterprise Wi-Fi profiles</li>
                 </ul>
               </MDBCard>
             </MDBCol>

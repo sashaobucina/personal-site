@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <div className="footer">
         <MDBNavbar expand="md">
-          <MDBNavbarBrand left>
+          <MDBNavbarBrand>
             <p className="mt-3 ml-3" style={{ fontSize: "13px" }}>
               Made with <span role="img" aria-label="heart">❤️</span> by Sasha Obucina
             </p>
