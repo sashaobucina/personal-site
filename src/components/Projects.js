@@ -21,10 +21,9 @@ class Projects extends Component {
                 <p className="text-muted">
                   A natural language query engine for financial information. This application is designed
                   to support quick and easy access to financials such as historical stock prices, financial statements, 
-                  and company overviews through the use of natural language queries. Using a RESTFUL architecture, the NLP engine
-                  is dockerized in an HTTP server through RASA, the the backend microservice classifies intents and aggreagates the necessary 
-                  data through the FinancialModelingPrep API, and all shown through a React frontend that dynamically loads content based off of 
-                  the user query.
+                  and company overviews through the use of natural language queries. Powered by a React.js frontend, 
+                  user queries are interpreted by the NLP model through the Node.js backend microservice, which in turn classifies 
+                  the intent of the query to dynamically load content of interest to the user.
                 </p>
                 <a href="https://github.com/sashaobucina/FinanceAssistant/" target="_blank" rel="noopener noreferrer">
                   <MDBBtn outline color="blue">
@@ -37,7 +36,7 @@ class Projects extends Component {
                 <p className="text-muted">
                   An Android app that sets your phone into "Do not disturb mode" when placed face down. Using Android's built-in 
                   system proximity sensor and accelerometer, when the app is active, a background service is launched that tracks the phone's
-                  relative positioning to activate the notification filter when face down on a surface. This app would be useful when in meetings 
+                  relative positioning. When placed face down on a surface, the app filters any notifications as in the "Do not disturb" mode. QuietMode is perfect when in meetings 
                   to mute all notifications by simply setting your phone on the table.
                 </p>
                 <a href="https://github.com/sashaobucina/QuietMode/" target="_blank" rel="noopener noreferrer">
@@ -50,8 +49,8 @@ class Projects extends Component {
                 <h4 className="mb-3">PhotoTagger</h4>
                 <p className="text-muted">
                   A Java application that renames image files on a local file system by adding tags and keeps track of modified versions of the image.
-                  The application is written in pure Java and follows a strict OOD approach, utilizing common OO design concepts when applicable. A user-friendly GUI is 
-                  provided through the Java Swing toolkit for the user can interact with. This projects was done for a software design course in school.
+                  The application is written using the Java standard library and follows a strict OOD approach, utilizing common OO design concepts when applicable. A user-friendly GUI is 
+                  provided through the Java Swing toolkit for the user can interact with. The project was done as part of a software design course in university.
                 </p>
                 <a href="https://github.com/sashaobucina/PhotoTagger/" target="_blank" rel="noopener noreferrer">
                   <MDBBtn outline color="blue">

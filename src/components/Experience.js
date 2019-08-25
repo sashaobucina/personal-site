@@ -23,8 +23,8 @@ class Experience extends Component {
                 <p className="text-muted" style={{ fontSize: "14px" }}>January 2019 - April 2019<br/>(4 mos.)</p>
                 <ul className="text-muted mt-2" style={{ textAlign: "left", fontSize: "14px" }}>
                   <li>Developed and maintained a production-ready chatbot designed for in-field use by equity traders using a RESTFUL server architecture</li>
-                  <li>Led research of improving NLP model performance and fully integrated the NLU pipeline through SpaCy and Scikit-Learn</li>
-                  <li>Responsible for full-stack developement of backend microservice using Node.js, TypeScript, and JQuery</li>
+                  <li>Led the research of improving NLP model performance and fully integrated the NLU pipeline through SpaCy and Scikit-Learn</li>
+                  <li>Responsible for full-stack developement of backend microservices using Node.js, TypeScript, and JQuery</li>
                   <li>Assisted in building a fully automated deployment pipeline using Jenkins, Artifactory, and Docker</li>
                 </ul>
               </MDBCard>

@@ -28,6 +28,14 @@ class Education extends Component {
                     I took a professional experience year to gain work experience through technical internships and therefore will be 
                     graduating in five years instead of four.
                   </p>
+                  <p><b>Notable Courses:</b></p>
+                  <ul style={{listStyleType: "square"}}>
+                    <li>CSC311 - Introduction to Machine Learning</li>
+                    <li>CSC373 - Algorithm Design and Analysis</li>
+                    <li>CSC369 - Operating Systems</li>
+                    <li>CSC401 - Natural Language Computing</li>
+                    <li>CSC458 - Computer Networking Systems</li>
+                  </ul>
                 </MDBListGroupItem>
               </MDBListGroup>
             </MDBCol>
