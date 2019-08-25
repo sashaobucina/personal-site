@@ -28,8 +28,8 @@ class Education extends Component {
                     I took a professional experience year to gain work experience through technical internships and therefore will be 
                     graduating in five years instead of four.
                   </p>
-                  <p><b>Notable Courses:</b></p>
-                  <ul style={{listStyleType: "square"}}>
+                  <p className="text-muted mb-2"><b>Notable Courses:</b></p>
+                  <ul className="text-muted mb-2" style={{listStyleType: "square"}}>
                     <li>CSC311 - Introduction to Machine Learning</li>
                     <li>CSC373 - Algorithm Design and Analysis</li>
                     <li>CSC369 - Operating Systems</li>
