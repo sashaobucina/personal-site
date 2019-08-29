@@ -8,7 +8,7 @@ import Projects from "./Projects";
 import Education from "./Education";
 import Skills from "./Skills";
 import Footer from "./Footer";
-import resume from "../static/files/SashaObucina-ResumeOctober2018.pdf"
+import resume from "../static/files/SashaObucinaResume-Final.pdf"
 
 class Landing extends Component {
   render() {
