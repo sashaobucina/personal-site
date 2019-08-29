@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31cb341e03e5ec9ad773016d8cbab46c",
+    "revision": "24334a68be9eefde397cdd42c2e6a9ad",
     "url": "/personal-site/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-site/static/css/2.38c62c8d.chunk.css"
   },
   {
-    "revision": "6bacf68dba57bafb6626",
+    "revision": "277f6be29695f8392f68",
     "url": "/personal-site/static/css/main.413a2cdf.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-site/static/js/2.be50249a.chunk.js"
   },
   {
-    "revision": "6bacf68dba57bafb6626",
-    "url": "/personal-site/static/js/main.9474e419.chunk.js"
+    "revision": "277f6be29695f8392f68",
+    "url": "/personal-site/static/js/main.06120f72.chunk.js"
   },
   {
     "revision": "d33cc63b615d83e32684",
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-site/static/media/Roboto-Thin.dfe56a87.eot"
   },
   {
-    "revision": "cc6ed2c6f1e5a993f7281b42b0007ee9",
-    "url": "/personal-site/static/media/SashaObucina-ResumeOctober2018.cc6ed2c6.pdf"
+    "revision": "9e4fc5100475009d7aa68cf4b78f4ba5",
+    "url": "/personal-site/static/media/SashaObucinaResume-Final.9e4fc510.pdf"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
