@@ -36,7 +36,7 @@ class Skills extends Component {
                   {showSkillRow('Git', 4)}
                   {showSkillRow('React', 3)}
                   {showSkillRow('HTML/CSS', 2)}
-                  {showSkillRow('MatLab', 1)}
+                  {showSkillRow('Haskell/Racket', 2)}
                 </MDBContainer>
               </MDBCol>
             </MDBRow>
