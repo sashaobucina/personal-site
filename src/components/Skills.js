@@ -18,7 +18,7 @@ class Skills extends Component {
               <MDBCol md="4">
                 <MDBContainer fluid>
                   {showSkillRow('Java', 4)}
-                  {showSkillRow('Python', 3)}
+                  {showSkillRow('Python', 5)}
                   {showSkillRow('SQL', 3)}
                   {showSkillRow('Docker', 2)}
                 </MDBContainer>
