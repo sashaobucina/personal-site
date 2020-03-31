@@ -34,7 +34,7 @@ class Projects extends Component {
                     </a>
                   </MDBListGroupItem>
                   <MDBListGroupItem>
-                    <h3 className="mb-3">CoronaTracker</h3>
+                    <h4 className="mb-3">CoronaTracker</h4>
                     <p className="text-muted">
                       A web application that tracks the movements and trends of the COVID-19 virus on a per-country or global basis. It is designed to not only
                       gain a overall view of the activity of the virus, but also track and predict future trends of the virus growth.
