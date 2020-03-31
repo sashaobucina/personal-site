@@ -32,6 +32,20 @@ class Projects extends Component {
                 </a>
               </MDBListGroupItem>
               <MDBListGroupItem>
+                <h4 className="mb-3">CoronaTracker</h4>
+                <p className="text-muted">
+                  A web application that tracks the movements and trends of the COVID-19 virus on a per-country or global basis. It is designed to not only
+                  gain a overall view of the activity of the virus, but also track and predict future trends of the virus growth.
+                  The application is powered by a React.js frontend that queries a Python Flask microservice, hosted on Heroku as a Docker container, when a user inputs a country of choice.
+                  The RESTful microservice in turn transforms the data extracted from the John Hopkins CSSE repository and returns it as formatted JSON, updating it's view on the data every 3 hours.
+                </p>
+                <a href="https://github.com/sashaobucina/coronatracker" target="_blank" rel="noopener noreferrer">
+                  <MDBBtn outline color="blue">
+                    View Project<MDBIcon className="ml-2" icon="clone" />
+                  </MDBBtn>
+                </a>
+              </MDBListGroupItem>
+              <MDBListGroupItem>
                 <h4 className="mb-3">Quiet Mode</h4>
                 <p className="text-muted">
                   An Android app that sets your phone into "Do not disturb mode" when placed face down. Using Android's built-in 
@@ -40,19 +54,6 @@ class Projects extends Component {
                   to mute all notifications by simply setting your phone on the table.
                 </p>
                 <a href="https://github.com/sashaobucina/QuietMode/" target="_blank" rel="noopener noreferrer">
-                  <MDBBtn outline color="blue">
-                    View Project<MDBIcon className="ml-2" icon="clone" />
-                  </MDBBtn>
-                </a>
-              </MDBListGroupItem>
-              <MDBListGroupItem>
-                <h4 className="mb-3">PhotoTagger</h4>
-                <p className="text-muted">
-                  A Java application that renames image files on a local file system by adding tags and keeps track of modified versions of the image.
-                  The application is written using the Java standard library and follows a strict OOD approach, utilizing common OO design concepts when applicable. A user-friendly GUI is 
-                  provided through the Java Swing toolkit for the user can interact with. The project was done as part of a software design course in university.
-                </p>
-                <a href="https://github.com/sashaobucina/PhotoTagger/" target="_blank" rel="noopener noreferrer">
                   <MDBBtn outline color="blue">
                     View Project<MDBIcon className="ml-2" icon="clone" />
                   </MDBBtn>
