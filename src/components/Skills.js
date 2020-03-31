@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdbreact";
+import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBCard, MDBCardBody } from "mdbreact";
 import CustomDivider from "./CustomDivider";
 
 class Skills extends Component {
@@ -13,30 +13,42 @@ class Skills extends Component {
               <CustomDivider />
             </MDBCol>
           </MDBRow>
-          <MDBContainer className="mt-4" fluid>
+          <MDBContainer id="skills-container" className="mt-4" fluid>
             <MDBRow>
               <MDBCol md="4">
                 <MDBContainer fluid>
-                  {showSkillRow('Java', 4)}
-                  {showSkillRow('Python', 5)}
-                  {showSkillRow('SQL', 3)}
-                  {showSkillRow('Docker', 2)}
+                  <MDBCard>
+                    <MDBCardBody>
+                      {showSkillRow('Java', 4)}
+                      {showSkillRow('Python', 5)}
+                      {showSkillRow('SQL', 3)}
+                      {showSkillRow('Docker', 2)}
+                    </MDBCardBody>
+                  </MDBCard>
                 </MDBContainer>
               </MDBCol>
               <MDBCol md="4">
                 <MDBContainer fluid>
-                  {showSkillRow('Typescript', 4)}
-                  {showSkillRow('Javascript', 3)}
-                  {showSkillRow('Android', 3)}
-                  {showSkillRow('C/C++', 2)}
+                <MDBCard>
+                    <MDBCardBody>
+                      {showSkillRow('Typescript', 4)}
+                      {showSkillRow('Javascript', 3)}
+                      {showSkillRow('Android', 3)}
+                      {showSkillRow('C/C++', 2)}
+                    </MDBCardBody>
+                  </MDBCard>
                 </MDBContainer>
               </MDBCol>
               <MDBCol md="4">
                 <MDBContainer fluid>
-                  {showSkillRow('Git', 4)}
-                  {showSkillRow('React', 3)}
-                  {showSkillRow('HTML/CSS', 2)}
-                  {showSkillRow('Haskell/Racket', 2)}
+                <MDBCard>
+                    <MDBCardBody>
+                      {showSkillRow('Git', 4)}
+                      {showSkillRow('React', 3)}
+                      {showSkillRow('HTML/CSS', 2)}
+                      {showSkillRow('Haskell/Racket', 2)}
+                    </MDBCardBody>
+                  </MDBCard>
                 </MDBContainer>
               </MDBCol>
             </MDBRow>

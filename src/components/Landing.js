@@ -38,7 +38,7 @@ class Landing extends Component {
                   </MDBBtn>
                 </MDBCol>
                 <MDBCol className="offset-sm-4 offset-md-0" md="3" sm="4">
-                  <MDBBtn color="default" href={resume} target="_blank" rel="noopener noreferrer">
+                  <MDBBtn color="cyan" href={resume} target="_blank" rel="noopener noreferrer">
                     Resumé<MDBIcon className="ml-1" icon="download"></MDBIcon>
                   </MDBBtn>
                 </MDBCol>
