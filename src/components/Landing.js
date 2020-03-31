@@ -33,7 +33,7 @@ class Landing extends Component {
                   </MDBBtn>
                 </MDBCol>
                 <MDBCol md="4" sm="3">
-                  <MDBBtn href="https://www.linkedin.com/in/sasha-obucina/" color="indigo">
+                  <MDBBtn href="https://www.linkedin.com/in/sasha-obucina/" color="primary">
                     Linkedin<MDBIcon className="ml-1" fab icon="linkedin"></MDBIcon>
                   </MDBBtn>
                 </MDBCol>
