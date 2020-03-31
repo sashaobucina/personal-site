@@ -28,17 +28,17 @@ class Landing extends Component {
               </MDBRow>
               <MDBRow className="landing-btn-group mt-5">
                 <MDBCol className="offset-sm-3 offset-md-1" md="3" sm="3">
-                  <MDBBtn href="https://github.com/sashaobucina" outline color="white">
+                  <MDBBtn href="https://github.com/sashaobucina" color="black">
                     Github<MDBIcon className="ml-1" fab icon="github"></MDBIcon>
                   </MDBBtn>
                 </MDBCol>
                 <MDBCol md="4" sm="3">
-                  <MDBBtn href="https://www.linkedin.com/in/sasha-obucina/" outline color="white">
+                  <MDBBtn href="https://www.linkedin.com/in/sasha-obucina/" color="indigo">
                     Linkedin<MDBIcon className="ml-1" fab icon="linkedin"></MDBIcon>
                   </MDBBtn>
                 </MDBCol>
                 <MDBCol className="offset-sm-4 offset-md-0" md="3" sm="4">
-                  <MDBBtn outline color="white" href={resume} target="_blank" rel="noopener noreferrer">
+                  <MDBBtn color="default" href={resume} target="_blank" rel="noopener noreferrer">
                     Resumé<MDBIcon className="ml-1" icon="download"></MDBIcon>
                   </MDBBtn>
                 </MDBCol>
