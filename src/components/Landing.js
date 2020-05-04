@@ -103,7 +103,7 @@ class Landing extends Component {
                   distance: 200,
                   color: "#fff",
                   opacity: 1,
-                  width: 1,
+                  width: 2,
                   condensed_mode: {
                     enable: false,
                     rotateX: 600,
@@ -129,10 +129,12 @@ class Landing extends Component {
                 detect_on: "window",
                 events: {
                   onhover: {
-                    enable: true
+                    enable: true,
+                    mode: "grab"
                   },
                   onclick: {
-                    enable: true
+                    enable: true,
+                    mode: "repulse"
                   },
                   resize: true
                 }

@@ -19,21 +19,6 @@ class Projects extends Component {
               <MDBCardBody>
                 <MDBListGroup>
                   <MDBListGroupItem>
-                    <h4 className="mb-3">Finance Assistant</h4>
-                    <p className="text-muted">
-                      A natural language query engine for financial information. This application is designed
-                      to support quick and easy access to financials such as historical stock prices, financial statements, 
-                      and company overviews through the use of natural language queries. Powered by a React.js frontend, 
-                      user queries are interpreted by the NLP model through the Node.js backend microservice, which in turn classifies 
-                      the intent of the query to dynamically load content of interest to the user.
-                    </p>
-                    <a href="https://github.com/sashaobucina/FinanceAssistant/" target="_blank" rel="noopener noreferrer">
-                      <MDBBtn color="primary">
-                        View Project<MDBIcon className="ml-2" icon="clone" />
-                      </MDBBtn>
-                    </a>
-                  </MDBListGroupItem>
-                  <MDBListGroupItem>
                     <h4 className="mb-3">CoronaTracker</h4>
                     <p className="text-muted">
                       A web application that tracks the movements and trends of the COVID-19 virus on a per-country or global basis. It is designed to not only
@@ -53,6 +38,21 @@ class Projects extends Component {
                         </MDBBtn>
                       </a>
                     </MDBBtnGroup>
+                  </MDBListGroupItem>
+                  <MDBListGroupItem>
+                    <h4 className="mb-3">Finance Assistant</h4>
+                    <p className="text-muted">
+                      A natural language query engine for financial information. This application is designed
+                      to support quick and easy access to financials such as historical stock prices, financial statements, 
+                      and company overviews through the use of natural language queries. Powered by a React.js frontend, 
+                      user queries are interpreted by the NLP model through the Node.js backend microservice, which in turn classifies 
+                      the intent of the query to dynamically load content of interest to the user.
+                    </p>
+                    <a href="https://github.com/sashaobucina/FinanceAssistant/" target="_blank" rel="noopener noreferrer">
+                      <MDBBtn color="primary">
+                        View Project<MDBIcon className="ml-2" icon="clone" />
+                      </MDBBtn>
+                    </a>
                   </MDBListGroupItem>
                   <MDBListGroupItem>
                     <h4 className="mb-3">Quiet Mode</h4>

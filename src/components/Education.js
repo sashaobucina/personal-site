@@ -32,11 +32,11 @@ class Education extends Component {
                       </p>
                       <p className="text-muted mb-2"><b>Notable Courses:</b></p>
                       <ul className="text-muted mb-2" style={{listStyleType: "square"}}>
-                        <li>CSC311 - Introduction to Machine Learning</li>
-                        <li>CSC373 - Algorithm Design and Analysis</li>
-                        <li>CSC369 - Operating Systems</li>
-                        <li>CSC401 - Natural Language Computing</li>
-                        <li>CSC458 - Computer Networking Systems</li>
+                        <li>CSC311 - Introduction to Machine Learning (92%)</li>
+                        <li>CSC384 - Introduction to Arificial Intelligence (92%)</li>
+                        <li>CSC401 - Natural Language Computing (98%)</li>
+                        <li>CSC458 - Computer Networking Systems (94%)</li>
+                        <li>CSC369 - Operating Systems (80%)</li>
                       </ul>
                     </MDBListGroupItem>
                   </MDBListGroup>

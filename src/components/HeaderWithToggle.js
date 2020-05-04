@@ -7,7 +7,7 @@ class HeaderWithToggle extends Component {
   render() {
     const { collapseID, toggleHandler } = this.props;
     return (
-      <MDBNavbar className="mt-2" transparent>
+      <MDBNavbar className="mt-2" transparent={false}>
         <MDBNavbarToggler image={hamburgerImg} className="mr-2" id="hamburger1" onClick={toggleHandler('navbarCollapse1')} />
         <MDBCollapse id="navbarCollapse1" isOpen={collapseID} navbar>
           <MDBNavbarNav className="header-items mt-2">
