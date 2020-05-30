@@ -1,5 +1,13 @@
 import React, { Component } from "react";
-import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBCard, MDBCardBody } from "mdbreact";
+import {
+  MDBJumbotron,
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBIcon,
+  MDBCard,
+  MDBCardBody,
+} from "mdbreact";
 import CustomDivider from "./CustomDivider";
 
 class Skills extends Component {
@@ -19,34 +27,34 @@ class Skills extends Component {
                 <MDBContainer fluid>
                   <MDBCard>
                     <MDBCardBody>
-                      {showSkillRow('Java', 4)}
-                      {showSkillRow('Python', 5)}
-                      {showSkillRow('SQL', 3)}
-                      {showSkillRow('Docker', 2)}
+                      {showSkillRow("Java", 4)}
+                      {showSkillRow("Python", 5)}
+                      {showSkillRow("SQL", 3)}
+                      {showSkillRow("Docker", 2)}
                     </MDBCardBody>
                   </MDBCard>
                 </MDBContainer>
               </MDBCol>
               <MDBCol md="4">
                 <MDBContainer fluid>
-                <MDBCard>
+                  <MDBCard>
                     <MDBCardBody>
-                      {showSkillRow('Typescript', 4)}
-                      {showSkillRow('Javascript', 3)}
-                      {showSkillRow('Android', 3)}
-                      {showSkillRow('C/C++', 2)}
+                      {showSkillRow("Typescript", 4)}
+                      {showSkillRow("Javascript", 3)}
+                      {showSkillRow("Android", 3)}
+                      {showSkillRow("C/C++", 2)}
                     </MDBCardBody>
                   </MDBCard>
                 </MDBContainer>
               </MDBCol>
               <MDBCol md="4">
                 <MDBContainer fluid>
-                <MDBCard>
+                  <MDBCard>
                     <MDBCardBody>
-                      {showSkillRow('Git', 4)}
-                      {showSkillRow('React', 3)}
-                      {showSkillRow('HTML/CSS', 2)}
-                      {showSkillRow('Haskell/Racket', 2)}
+                      {showSkillRow("Git", 4)}
+                      {showSkillRow("React", 3)}
+                      {showSkillRow("HTML/CSS", 2)}
+                      {showSkillRow("Haskell/Racket", 2)}
                     </MDBCardBody>
                   </MDBCard>
                 </MDBContainer>
@@ -55,7 +63,7 @@ class Skills extends Component {
           </MDBContainer>
         </MDBContainer>
       </MDBJumbotron>
-    )
+    );
   }
 }
 
@@ -69,14 +77,14 @@ const showSkillRow = (skill, rating) => {
         </h5>
       </MDBCol>
     </MDBRow>
-  )
-}
+  );
+};
 
 const showStars = (rating) => {
   return [...Array(5)].map((_e, i) => {
     const className = i < rating ? "amber-text" : "grey-text";
-    return <MDBIcon key={i} className={className} icon="star" size="sm" />
+    return <MDBIcon key={i} className={className} icon="star" size="sm" />;
   });
-}
+};
 
 export default Skills;

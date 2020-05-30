@@ -1,5 +1,14 @@
 import React, { Component } from "react";
-import { MDBContainer, MDBJumbotron, MDBRow, MDBCol, MDBListGroup, MDBListGroupItem, MDBCard, MDBCardBody } from "mdbreact";
+import {
+  MDBContainer,
+  MDBJumbotron,
+  MDBRow,
+  MDBCol,
+  MDBListGroup,
+  MDBListGroupItem,
+  MDBCard,
+  MDBCardBody,
+} from "mdbreact";
 import CustomDivider from "./CustomDivider";
 
 class Education extends Component {
@@ -20,20 +29,44 @@ class Education extends Component {
                   <MDBListGroup>
                     <MDBListGroupItem style={{ textAlign: "left" }}>
                       <div className="d-flex w-100 justify-content-between">
-                        <h4 className="mb-2 font-weight-bolder">University of Toronto</h4>
-                        <p className="text-muted mb-2">September 2015 - Present</p>
+                        <h4 className="mb-2 font-weight-bolder">
+                          University of Toronto
+                        </h4>
+                        <p className="text-muted mb-2">
+                          September 2015 - Present
+                        </p>
                       </div>
-                      <p className="text-muted mb-1 font-weight-bolder" style={{ fontSize: "16px" }}>Computer Science and Economics</p>
-                      <p className="text-muted mb-3" style={{ fontSize: "16px" }}>Toronto, Canada</p>
-                      <p className="text-muted">
-                        Currently pursuing a double degree program at the University of Toronto at the St. George Campus for Computer Science and Economics. 
-                        I took a professional experience year to gain work experience through technical internships and therefore will be 
-                        graduating in five years instead of four.
+                      <p
+                        className="text-muted mb-1 font-weight-bolder"
+                        style={{ fontSize: "16px" }}
+                      >
+                        Computer Science and Economics
                       </p>
-                      <p className="text-muted mb-2"><b>Notable Courses:</b></p>
-                      <ul className="text-muted mb-2" style={{listStyleType: "square"}}>
+                      <p
+                        className="text-muted mb-3"
+                        style={{ fontSize: "16px" }}
+                      >
+                        Toronto, Canada
+                      </p>
+                      <p className="text-muted">
+                        Currently pursuing a double degree program at the
+                        University of Toronto at the St. George Campus for
+                        Computer Science and Economics. I took a professional
+                        experience year to gain work experience through
+                        technical internships and therefore will be graduating
+                        in five years instead of four.
+                      </p>
+                      <p className="text-muted mb-2">
+                        <b>Notable Courses:</b>
+                      </p>
+                      <ul
+                        className="text-muted mb-2"
+                        style={{ listStyleType: "square" }}
+                      >
                         <li>CSC311 - Introduction to Machine Learning (92%)</li>
-                        <li>CSC384 - Introduction to Arificial Intelligence (92%)</li>
+                        <li>
+                          CSC384 - Introduction to Arificial Intelligence (92%)
+                        </li>
                         <li>CSC401 - Natural Language Computing (98%)</li>
                         <li>CSC458 - Computer Networking Systems (94%)</li>
                         <li>CSC369 - Operating Systems (80%)</li>
@@ -46,7 +79,7 @@ class Education extends Component {
           </MDBRow>
         </MDBContainer>
       </MDBJumbotron>
-    )
+    );
   }
 }
 

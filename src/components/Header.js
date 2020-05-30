@@ -5,19 +5,19 @@ import HeaderWithToggle from "./HeaderWithToggle";
 class Header extends Component {
   constructor(props) {
     super(props);
-    this.state = { width: 0, height: 0, collapseID: '' };
+    this.state = { width: 0, height: 0, collapseID: "" };
     this.toggleCollapse = this.toggleCollapse.bind(this);
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
 
   componentDidMount() {
     this.updateWindowDimensions();
-    window.addEventListener('resize', this.updateWindowDimensions);
+    window.addEventListener("resize", this.updateWindowDimensions);
   }
 
   componentWillUnmount() {
     this.updateWindowDimensions();
-    window.addEventListener('resize', this.updateWindowDimensions);
+    window.addEventListener("resize", this.updateWindowDimensions);
   }
 
   updateWindowDimensions() {
@@ -25,17 +25,26 @@ class Header extends Component {
   }
 
   toggleCollapse = (collapseId) => () => {
-    this.setState(prevState => ({ collapseID: (prevState.collapseID !== collapseId ? collapseId : '') }))
-  }
+    this.setState((prevState) => ({
+      collapseID: prevState.collapseID !== collapseId ? collapseId : "",
+    }));
+  };
 
   render() {
     const { collapseID, width } = this.state;
 
     return (
       <header>
-        { width >= 900 ? <HeaderNoToggle /> : <HeaderWithToggle collapseID={collapseID} toggleHandler={this.toggleCollapse} /> }
+        {width >= 900 ? (
+          <HeaderNoToggle />
+        ) : (
+          <HeaderWithToggle
+            collapseID={collapseID}
+            toggleHandler={this.toggleCollapse}
+          />
+        )}
       </header>
-    )
+    );
   }
 }
 

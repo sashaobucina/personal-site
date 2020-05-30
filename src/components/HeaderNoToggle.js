@@ -17,7 +17,7 @@ class HeaderNoToggle extends Component {
               <p>Experience</p>
             </Link>
           </MDBNavItem>
-          <MDBNavItem className="mr-3"> 
+          <MDBNavItem className="mr-3">
             <Link smooth to="#projects" className="header-link">
               <p>Projects</p>
             </Link>
@@ -33,8 +33,8 @@ class HeaderNoToggle extends Component {
             </Link>
           </MDBNavItem>
         </MDBNavbarNav>
-      </MDBNavbar> 
-    )
+      </MDBNavbar>
+    );
   }
 }
 
